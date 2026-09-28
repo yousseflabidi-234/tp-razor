@@ -1,21 +1,25 @@
 @page
 @model TPIntroRazor.Pages.CalculModel
-@{ ViewData["Title"] = "Calculateur d'âge"; }
+@{
+    ViewData["Title"] = "Calculateur d'âge";
+}
 
 <div class="container mt-4" style="max-width: 450px;">
     <h2 class="mb-3">Calculateur d'âge</h2>
 
-    <form method="post">
+    <form method="post" novalidate>
         <div class="mb-3">
-            <label class="form-label">Votre nom :</label>
+            <label asp-for="Nom" class="form-label"></label>
             <input asp-for="Nom" class="form-control" />
             <span asp-validation-for="Nom" class="text-danger"></span>
         </div>
+
         <div class="mb-3">
-            <label class="form-label">Année de naissance :</label>
-            <input asp-for="AnneeNaissance" class="form-control" />
+            <label asp-for="AnneeNaissance" class="form-label"></label>
+            <input asp-for="AnneeNaissance" type="number" class="form-control" />
             <span asp-validation-for="AnneeNaissance" class="text-danger"></span>
         </div>
+
         <button type="submit" class="btn btn-primary">Calculer</button>
     </form>
 
@@ -25,11 +29,16 @@
             @Model.Message
         </div>
 
-        @if (Model.EstValide)
+        if (Model.EstValide)
         {
             <ul class="list-group">
-                <li class="list-group-item">🎂 Vous atteindrez 100 ans en <strong>@Model.AnneeCentenaire</strong></li>
-                <li class="list-group-item">📅 Vous êtes né(e) dans les <strong>@Model.Decennie</strong></li>
+                <li class="list-group-item">
+                    🎂 Vous @(Model.CentenaireDejaAtteint ? "avez atteint" : "atteindrez") 100 ans en
+                    <strong>@Model.AnneeCentenaire</strong>
+                </li>
+                <li class="list-group-item">
+                    📅 Vous êtes né(e) dans les <strong>@Model.Decennie</strong>
+                </li>
             </ul>
         }
     }

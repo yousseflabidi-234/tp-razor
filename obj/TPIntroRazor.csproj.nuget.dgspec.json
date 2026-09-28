@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\noujo\\source\\repos\\TPIntroRazor\\TPIntroRazor.csproj": {}
+    "C:\\Users\\ASUS TUF\\source\\repos\\TPIntroRazor\\TPIntroRazor.csproj": {}
   },
   "projects": {
-    "C:\\Users\\noujo\\source\\repos\\TPIntroRazor\\TPIntroRazor.csproj": {
+    "C:\\Users\\ASUS TUF\\source\\repos\\TPIntroRazor\\TPIntroRazor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\noujo\\source\\repos\\TPIntroRazor\\TPIntroRazor.csproj",
+        "projectUniqueName": "C:\\Users\\ASUS TUF\\source\\repos\\TPIntroRazor\\TPIntroRazor.csproj",
         "projectName": "TPIntroRazor",
-        "projectPath": "C:\\Users\\noujo\\source\\repos\\TPIntroRazor\\TPIntroRazor.csproj",
-        "packagesPath": "C:\\Users\\noujo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\noujo\\source\\repos\\TPIntroRazor\\obj\\",
+        "projectPath": "C:\\Users\\ASUS TUF\\source\\repos\\TPIntroRazor\\TPIntroRazor.csproj",
+        "packagesPath": "C:\\Users\\ASUS TUF\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ASUS TUF\\source\\repos\\TPIntroRazor\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\noujo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ASUS TUF\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

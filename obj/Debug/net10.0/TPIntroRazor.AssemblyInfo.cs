@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TPIntroRazor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7619c6176fc788734a5704425dac1cd5b1fb4bb1")]
 [assembly: System.Reflection.AssemblyProductAttribute("TPIntroRazor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TPIntroRazor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

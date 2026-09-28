@@ -12,45 +12,45 @@ build_property.EntryPointFilePath =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TPIntroRazor
 build_property.RootNamespace = TPIntroRazor
-build_property.ProjectDir = C:\Users\noujo\source\repos\TPIntroRazor\
+build_property.ProjectDir = C:\Users\ASUS TUF\source\repos\TPIntroRazor\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 10.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\noujo\source\repos\TPIntroRazor
+build_property.MSBuildProjectDirectory = C:\Users\ASUS TUF\source\repos\TPIntroRazor
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 10.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/noujo/source/repos/TPIntroRazor/Pages/Calcul.cshtml]
+[C:/Users/ASUS TUF/source/repos/TPIntroRazor/Pages/Calcul.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FsY3VsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/noujo/source/repos/TPIntroRazor/Pages/Error.cshtml]
+[C:/Users/ASUS TUF/source/repos/TPIntroRazor/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/noujo/source/repos/TPIntroRazor/Pages/Index.cshtml]
+[C:/Users/ASUS TUF/source/repos/TPIntroRazor/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/noujo/source/repos/TPIntroRazor/Pages/Privacy.cshtml]
+[C:/Users/ASUS TUF/source/repos/TPIntroRazor/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/noujo/source/repos/TPIntroRazor/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/ASUS TUF/source/repos/TPIntroRazor/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/noujo/source/repos/TPIntroRazor/Pages/_ViewImports.cshtml]
+[C:/Users/ASUS TUF/source/repos/TPIntroRazor/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/noujo/source/repos/TPIntroRazor/Pages/_ViewStart.cshtml]
+[C:/Users/ASUS TUF/source/repos/TPIntroRazor/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/noujo/source/repos/TPIntroRazor/Pages/Shared/_Layout.cshtml]
+[C:/Users/ASUS TUF/source/repos/TPIntroRazor/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ttybx0q1g9

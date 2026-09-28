@@ -1,19 +1,22 @@
 ﻿@page
-@model IndexModel
-@{ ViewData["Title"] = "Accueil"; }
+@model TPIntroRazor.Pages.IndexModel
+@{
+    ViewData["Title"] = "Accueil";
+}
 
 <div class="container mt-4">
     <div class="p-4 bg-light rounded-3 border mb-4">
         <h1 class="text-primary">@Model.MessageAccueil</h1>
         <p class="text-secondary fst-italic">@Model.MessageAccueilDynamique</p>
-        <p class="text-muted">Date serveur : @DateTime.Now.ToString("dd/MM/yyyy HH:mm")</p>
+        <p class="text-muted mb-3">Date serveur : @Model.DateServeur.ToString("dd/MM/yyyy HH:mm")</p>
+        <a asp-page="/Calcul" class="btn btn-primary">Ouvrir le calculateur d'âge</a>
     </div>
 
     <h3>Programme d'apprentissage (@Model.Modules.Count modules) :</h3>
     <ul class="list-group mb-4">
         @foreach (var module in Model.Modules)
         {
-            <li class="list-group-item">✔ @module</li>
+            <li class="list-group-item"><span aria-hidden="true">✔</span> @module</li>
         }
     </ul>
 
@@ -21,7 +24,7 @@
     <ul class="list-group">
         @foreach (var prereq in Model.Prerequis)
         {
-            <li class="list-group-item">📌 @prereq</li>
+            <li class="list-group-item"><span aria-hidden="true">📌</span> @prereq</li>
         }
     </ul>
 </div>
